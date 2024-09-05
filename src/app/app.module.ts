@@ -9,6 +9,7 @@ import { BrowserModule } from '@angular/platform-browser';
 /*Tercero: las importaciones de librerías de terceros: */
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 /*Por último, las importaciones de nuestro código: */
 import { AppRoutingModule } from './app-routing.module';
@@ -21,6 +22,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     CounterModule,
     HeroesModule,
+    DbzModule,
   ] /*En los imports siempre van a ir palabras tipo palabraModule*/,
   providers: [],
   bootstrap: [AppComponent],
